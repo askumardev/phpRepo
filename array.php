@@ -1,11 +1,11 @@
 
 <?php
-# php array.php
-$countries = array("Bharat", "UK", "USA");
-var_dump($countries);
+  # php array.php
+  $countries = array("Bharat", "UK", "USA");
+  var_dump($countries);
 
-echo "\n";
+  echo "\n";
 
-echo "I live in ";
-echo $countries[0];
+  echo "I live in ";
+  echo $countries[0];
 ?>
