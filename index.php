@@ -1,9 +1,18 @@
-<?php
-//php index.php
-//php -S localhost:8000 (to run in web browser)
 
-require __DIR__ . '/vendor/autoload.php';
-use Cocur\Slugify\Slugify;
-
-$slugify = new Slugify();
-echo $slugify->slugify('The sky is blue, and grass is green !!!');
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>How to put PHP in HTML- Date Example</title>
+  </head>
+  <body>
+    <div>This is pure HTML message.</div>
+    <div>Next, we’ll display today’s date and day by PHP!</div>
+    <div>
+    <?php
+    # php -S localhost:8000
+    echo 'Today’s date is <b>' . date('Y/m/d') . '</b> and it’s a <b>'.date('l').'</b> today!';
+    ?>
+    </div>
+    <div>Again, this is static HTML content.</div>
+  </body>
+</html>
