@@ -24,4 +24,13 @@
 
   $cars = array("Volvo","BMW","Toyota");
   var_dump($cars);
+  $number = 4 + 5;
+  
+  echo $number;
+  echo "\n";
+  $str = 'satish';
+  echo 'The name is ' . $str . " u entered." ;
+  echo "\n";
+  echo "The name is $str u entered";
+
 ?>
