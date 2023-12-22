@@ -9,7 +9,7 @@
       ?></title>
   </head>
   <body>
-    <?php    
+    <?php
       // File to be included in includeExample.php
       echo "Hello World from index.php";
     ?>
